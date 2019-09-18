@@ -7,7 +7,7 @@
 		<string>main.c</string>
 		<string>Makefile</string>
 		<string>make/AppleCommander.jar</string>
-		<string>make/bastokenizer-tools-bt-0.2.0.jar</string>
+		<string>make/bastools-tools-bt-0.3.0.jar</string>
 		<string>make/createDiskImage</string>
 		<string>make/bt</string>
 		<string>make/DevApple.vii</string>
@@ -96,10 +96,10 @@
 			<key>Group</key>
 			<string>make</string>
 		</dict>
-		<key>make/bastokenizer-tools-bt-0.2.0.jar</key>
+		<key>make/bastools-tools-bt-0.3.0.jar</key>
 		<dict>
 			<key>Path</key>
-			<string>make/bastokenizer-tools-bt-0.2.0.jar</string>
+			<string>make/bastools-tools-bt-0.3.0.jar</string>
 			<key>Group</key>
 			<string>make</string>
 		</dict>

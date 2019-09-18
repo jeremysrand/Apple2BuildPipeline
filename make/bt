@@ -27,7 +27,7 @@ shift
 
 tr -d '©' < "$INPUTFILE" > /tmp/bt_filtered.$$
 
-"$JAVA" -jar make/bastokenizer-tools-bt-0.2.0.jar $* /tmp/bt_filtered.$$
+"$JAVA" -jar make/bastools-tools-bt-0.3.0.jar $* /tmp/bt_filtered.$$
 RESULT=$?
 
 rm /tmp/bt_filtered.$$
