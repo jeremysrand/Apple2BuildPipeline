@@ -18,8 +18,8 @@
 		<string>make/merlin-asm</string>
 		<string>make/prodos_template.dsk</string>
 		<string>make/tail.mk</string>
-                <string>make/V2Make.scpt</string>
-                <string>../___PACKAGENAME___.xcodeproj/xcshareddata/xcschemes/___PACKAGENAME___.xcscheme</string>
+		<string>make/V2Make.scpt</string>
+		<string>../___PACKAGENAME___.xcodeproj/xcshareddata/xcschemes/___PACKAGENAME___.xcscheme</string>
 	</array>
 	<key>Definitions</key>
 	<dict>
@@ -52,7 +52,7 @@
 			<key>Group</key>
 			<string>make</string>
 			<key>Path</key>
-                        <string>make/merlin-asm</string>
+			<string>make/merlin-asm</string>
 		</dict>
 		<key>make/tail.mk</key>
 		<dict>
@@ -121,7 +121,7 @@
 		<dict>
 			<key>Path</key>
 			<string>Makefile</string>
-                </dict>
+		</dict>
 		<key>../___PACKAGENAME___.xcodeproj/xcshareddata/xcschemes/___PACKAGENAME___.xcscheme</key>
 		<dict>
 			<key>Group</key>
@@ -130,7 +130,7 @@
 				</array>
 			<key>Path</key>
 			<string>___PACKAGENAME___.xcscheme</string>
-                </dict>
+		</dict>
 	</dict>
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
@@ -179,70 +179,70 @@
 				<dict/>
 			</dict>
 		</dict>
-                <dict>
-                        <key>ProductType</key>
-                        <string>com.apple.product-type.tool</string>
-                        <key>TargetIdentifier</key>
-                        <string>com.apple.dt.commandLineToolTarget</string>
-                        <key>Name</key>
-                        <string>Binary</string>
-                        <key>SharedSettings</key>
-                        <dict>
-                                <key>PRODUCT_NAME</key>
-                                <string>___PACKAGENAME___</string>
-                        </dict>
-                </dict>
-                <dict>
-                        <key>ProductType</key>
-                        <string>com.apple.product-type.tool</string>
-                        <key>TargetIdentifier</key>
-                        <string>com.apple.dt.commandLineToolTarget</string>
-                        <key>Name</key>
-                        <string>DiskImage</string>
-                        <key>SharedSettings</key>
-                        <dict>
-                                <key>PRODUCT_NAME</key>
-                                <string>___PACKAGENAME___.dsk</string>
-                        </dict>
-                </dict>
-                <dict>
-                        <key>ProductType</key>
-                        <string>com.apple.product-type.tool</string>
-                        <key>TargetIdentifier</key>
-                        <string>com.apple.dt.commandLineToolTarget</string>
-                        <key>Name</key>
-                        <string>doNotBuild</string>
-                        <key>SharedSettings</key>
-                        <dict>
-                                <key>PRODUCT_NAME</key>
-                                <string>doNotBuild</string>
-                                <key>GCC_PREPROCESSOR_DEFINITIONS</key>
-                                <string>__fastcall__=""</string>
-                                <key>HEADER_SEARCH_PATHS</key>
-                                <string>$TEMP_ROOT/___PACKAGENAME___.build/$CONFIGURATION/___PACKAGENAME___.build/DerivedSources /usr/local/share/cc65/include</string>
-                        </dict>
-                        <key>BuildPhases</key>
-                        <array>
-                                <dict>
-                                        <key>Class</key>
-                                        <string>Sources</string>
-                                </dict>
-                                <dict>
-                                        <key>Class</key>
-                                        <string>Frameworks</string>
-                                </dict>
-                                <dict>
-                                        <key>Class</key>
-                                        <string>CopyFiles</string>
-                                        <key>DstPath</key>
-                                        <string>/usr/share/man/man1/</string>
-                                        <key>DstSubfolderSpec</key>
-                                        <string>0</string>
-                                        <key>RunOnlyForDeploymentPostprocessing</key>
-                                        <string>YES</string>
-                                </dict>
-                        </array>
-                </dict>
+		<dict>
+			<key>ProductType</key>
+			<string>com.apple.product-type.tool</string>
+			<key>TargetIdentifier</key>
+			<string>com.apple.dt.commandLineToolTarget</string>
+			<key>Name</key>
+			<string>Binary</string>
+			<key>SharedSettings</key>
+			<dict>
+				<key>PRODUCT_NAME</key>
+				<string>___PACKAGENAME___</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>ProductType</key>
+			<string>com.apple.product-type.tool</string>
+			<key>TargetIdentifier</key>
+			<string>com.apple.dt.commandLineToolTarget</string>
+			<key>Name</key>
+			<string>DiskImage</string>
+			<key>SharedSettings</key>
+			<dict>
+				<key>PRODUCT_NAME</key>
+				<string>___PACKAGENAME___.dsk</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>ProductType</key>
+			<string>com.apple.product-type.tool</string>
+			<key>TargetIdentifier</key>
+			<string>com.apple.dt.commandLineToolTarget</string>
+			<key>Name</key>
+			<string>doNotBuild</string>
+			<key>SharedSettings</key>
+			<dict>
+				<key>PRODUCT_NAME</key>
+				<string>doNotBuild</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<string>__fastcall__=""</string>
+				<key>HEADER_SEARCH_PATHS</key>
+				<string>$TEMP_ROOT/___PACKAGENAME___.build/$CONFIGURATION/___PACKAGENAME___.build/DerivedSources /usr/local/share/cc65/include</string>
+			</dict>
+			<key>BuildPhases</key>
+			<array>
+				<dict>
+					<key>Class</key>
+					<string>Sources</string>
+				</dict>
+				<dict>
+					<key>Class</key>
+					<string>Frameworks</string>
+				</dict>
+				<dict>
+					<key>Class</key>
+					<string>CopyFiles</string>
+					<key>DstPath</key>
+					<string>/usr/share/man/man1/</string>
+					<key>DstSubfolderSpec</key>
+					<string>0</string>
+					<key>RunOnlyForDeploymentPostprocessing</key>
+					<string>YES</string>
+				</dict>
+			</array>
+		</dict>
 	</array>
 </dict>
 </plist>

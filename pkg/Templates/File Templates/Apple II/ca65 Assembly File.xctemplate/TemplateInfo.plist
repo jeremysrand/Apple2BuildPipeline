@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-        <key>AllowedTypes</key>
-        <array>
-            <string>com.rand-family.xcode.ca65</string>
-        </array>
+<dict>
+	<key>AllowedTypes</key>
+	<array>
+		<string>com.rand-family.xcode.ca65</string>
+	</array>
 	<key>DefaultCompletionName</key>
 	<string>File</string>
 	<key>Description</key>
@@ -16,5 +16,5 @@
 	<string>___FILEBASENAME___.s</string>
 	<key>Summary</key>
 	<string>A ca65 assembly source file</string>
-    </dict>
+</dict>
 </plist>
