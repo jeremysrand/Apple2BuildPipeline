@@ -295,7 +295,7 @@ fi
 
 if [ $COPYBINARY -eq 1 ]
 then
-    if [ "$CC65_SUPPORTS_APPLE_SINGLE" -eq 1 ]
+    if [ "$CC65_SUPPORTS_APPLE_SINGLE" = 1 ]
     then
         "$JAVA" -jar "$APPLECOMMANDER" -as "$DISKIMAGE" "$TARGETFILE" < "$SOURCEFILE"
     elif [ $HASHEADER -eq 1 ]
